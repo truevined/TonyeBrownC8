@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313131" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="49dp"
+            android:layout_height="78dp"
+            android:src="@drawable/calc8logo2small"
+            android:contentDescription="@string/splash_logo"
+            android:cropToPadding="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-77dp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:text="@string/splash_header1"
+        android:textColor="#fd9f01"
+        android:textSize="14sp"
+        android:id="@+id/textViewSplashHeader"
+        android:layout_alignParentEnd="false"
+        android:layout_marginBottom="35dp"
+        android:textIsSelectable="false" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        android:text="@string/splash_header2"
+        android:textColor="#f0f4f6"
+        android:textSize="10sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

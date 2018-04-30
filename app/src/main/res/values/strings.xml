@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Calc8</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Display Strings -->
+    <string name="history">Press &amp; hold Equals/Mic button to talk!</string>
+    <string name="LCD">0</string>
+
+    <!--Active Function strings -->
+    <string name="activeFn1">SHIFT</string>
+    <string name="activeFn2">DEGREE</string>
+    <string name="activeFn3">RADIAN</string>
+    <string name="activeFn4">HYP</string>
+    <string name="activeFn5">ERROR</string>
+
+    <!--Scientific calculation strings -->
+        <!--Row 1 -->
+            <string name="shift">shiftBtn</string>
+            <string name="degree">degreeBtn</string>
+            <string name="radian">radianBtn</string>
+            <string name="pi">π</string>
+            <string name="random">rand</string>
+
+        <!--Row 2 -->
+            <string name="sin">sin</string>
+            <string name="cos">cos</string>
+            <string name="tan">tan</string>
+            <string name="log">log10</string>
+            <string name="memoryPlus">memoryPBtn</string>
+
+        <!--Row 3 -->
+            <string name="xSquared">^2</string>
+            <string name="squareRoot">squareRootBtn</string>
+            <string name="leftBracket">(</string>
+            <string name="rightBracket">)</string>
+            <string name="memoryR">MR</string>
+
+    <!--Basic calculation strings -->
+        <!--Row 4 -->
+            <string name="multiply">*</string>
+            <string name="seven">7</string>
+            <string name="eight">8</string>
+            <string name="nine">9</string>
+            <string name="CLR">Clear</string>
+
+        <!--Row 5 -->
+            <string name="divide">/</string>
+            <string name="four">4</string>
+            <string name="five">5</string>
+            <string name="six">6</string>
+            <string name="DEL">Delete</string>
+
+        <!--Row 6 -->
+            <string name="subtract">-</string>
+            <string name="one">1</string>
+            <string name="two">2</string>
+            <string name="three">3</string>
+            <string name="help">Help</string>
+
+        <!--Row 7 -->
+            <string name="add">+</string>
+            <string name="decimalPoint">.</string>
+            <string name="zero">0</string>
+            <string name="plusMinus">±</string>
+            <string name="equals"></string>
+
+
+    <!--Splash strings -->
+    <string name="splash_header1">Calc⁸</string>
+    <string name="splash_header2">Developed by: Tonye Brown</string>
+    <string name="splash_logo">Calc8Logo</string>
+
+    <!--Help strings-->
+    <string name="help_header">Calc⁸ Help</string>
+    <string name="help_theme">Calc⁸ Theme:</string>
+    <string name="help_night">Calc⁸ Night Theme</string>
+    <string name="help_light">Calc⁸ Light Theme</string>
+    <string name="help_author">Developed by: Tonye Brown</string>
+    <string name="help_website">http://www.tonyebrown.com</string>
+
+    <!--Ads stuf-->
+    <string name="interstitial_ad_unit_id">ca-app-pub-1325276054254531/2987378679</string>
+
+</resources>

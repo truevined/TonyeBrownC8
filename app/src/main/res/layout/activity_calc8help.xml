@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+    android:transitionGroup="false"
+    android:background="#d0212121"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/help_header"
+        android:textColor="#d3f2b0"
+        android:textSize="28sp"
+        android:id="@+id/textViewHelpHeader"
+        android:layout_gravity="top|center_horizontal"
+        android:padding="10dp" />
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/helpscreen"
+            android:layout_gravity="center">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_marginBottom="35dp"
+                android:visibility="invisible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help_theme"
+                    android:id="@+id/textViewTheme"
+                    android:textColor="#d3f2b0"
+                    android:textIsSelectable="false"
+                    android:textSize="18sp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButtonNight"
+                    android:layout_weight="10"
+                    android:text="@string/help_night"
+                    android:textColor="#ee8603"
+                    android:background="#c2000000"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginLeft="3dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButtonLight"
+                    android:layout_weight="10"
+                    android:text="@string/help_light"
+                    android:textColor="#184118"
+                    android:background="#d8d3f2b0"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:enabled="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help_author"
+            android:textColor="#f0f4f6"
+            android:textSize="21sp"
+            android:id="@+id/textViewAuthor"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="56dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:text="@string/help_website"
+            android:textColor="#6ac7f6"
+            android:textSize="21sp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:id="@+id/textViewWebsite"
+            android:layout_marginBottom="28dp" />
+</FrameLayout>
